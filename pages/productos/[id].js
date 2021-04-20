@@ -2,7 +2,7 @@ import React, { useEffect, useContext, useState } from 'react';
 import { useRouter } from "next/router";
 import formatDistanceToNow from "date-fns/formatDistanceToNow";
 import { es } from "date-fns/locale";
-import { FirebaseContext } from "../../firebase";
+import { FirebaseContext } from "../../firebase/context";
 import Layout from "../../components/layout/Layout";
 import Error404 from "../../components/layout/404";
 import { css } from "@emotion/react";
